@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "version": "1.0.0",
+  "notes": "Orbit 1.0.0, the first public release. A coordinated Omarchy desktop: a glass top bar with music controls, an agent studio and desktop pins that show your coding agents and their subagents at work, eight Vesper wallpapers with short animated arrivals, and a designed rain lock screen that shows what your agents did while you were away. Installs from one download without administrator access; the Orbit manager (Super+Space, Orbit) handles updates, repair, undo, enable/disable and uninstall while keeping your settings. Runs on x86-64 and ARM (aarch64).",
+  "download_url": "https://app.gumroad.com/library",
+  "compatibility": {
+    "omarchy_min": "4.0.0",
+    "omarchy_max_exclusive": "5.0.0",
+    "architectures": [
+      "x86_64",
+      "aarch64"
+    ]
+  },
+  "highlight": {
+    "title": "Choose a theme",
+    "command": "orbit showDesktopSettings"
+  }
+}
