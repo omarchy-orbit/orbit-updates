@@ -1,15 +1,52 @@
 {
   "schema": 1,
   "version": "1.0.0",
-  "notes": "Orbit 1.0.0, the first public release. A coordinated Omarchy desktop: a glass top bar with music controls, an agent studio and desktop pins that show your coding agents and their subagents at work, eight Vesper wallpapers with short animated arrivals, and a designed rain lock screen that shows what your agents did while you were away. Installs from one download without administrator access; the Orbit manager (Super+Space, Orbit) handles updates, repair, undo, enable/disable and uninstall while keeping your settings. Runs on x86-64 and ARM (aarch64).",
+  "notes": "Orbit 1.0.0, the first public release. A coordinated Omarchy desktop: a glass top bar with music controls, an agent studio and desktop pins that show your coding agents and their subagents at work, four coordinated themes—Brass, Celadon, Glacier and Pearl—eleven First Light wallpapers with short animated arrivals, and a designed rain lock screen that shows what your agents did while you were away. Installs from one download without administrator access; the Orbit manager (Super+Space, Orbit) handles updates, repair, undo, enable/disable and uninstall while keeping your settings. Compatibility is limited to the Omarchy versions and architectures listed in this release.",
   "download_url": "https://app.gumroad.com/library",
   "compatibility": {
-    "omarchy_min": "4.0.0",
-    "omarchy_max_exclusive": "5.0.0",
+    "omarchy_min": null,
+    "omarchy_max_exclusive": null,
     "architectures": [
       "x86_64",
       "aarch64"
-    ]
+    ],
+    "omarchy_versions": {
+      "x86_64": [
+        "4.5.0",
+        "4.5.0-rc3"
+      ]
+    },
+    "runtime_packages": {
+      "x86_64": {
+        "4.5.0": {
+          "omarchy": "4.5.0-3",
+          "hyprland": "0.56.2-4",
+          "quickshell": "0.3.2.r7.g2b4501a-1",
+          "qt6-base": "6.12.0-3",
+          "qt6-declarative": "6.12.0-2"
+        },
+        "4.5.0-rc3": {
+          "omarchy": "4.5.0rc3-1",
+          "hyprland": "0.56.2-4",
+          "quickshell": "0.3.2.r7.g2b4501a-1",
+          "qt6-base": "6.12.0-3",
+          "qt6-declarative": "6.12.0-2"
+        }
+      }
+    },
+    "omarchy_series": {
+      "aarch64": {
+        "omarchy": "4.0.0",
+        "development_builds": true,
+        "packages": {
+          "hyprland": "0.56",
+          "quickshell": "0.3",
+          "qt6-base": "6.12",
+          "qt6-declarative": "6.12"
+        },
+        "min_build": 7218
+      }
+    }
   },
   "highlight": {
     "title": "Choose a theme",
